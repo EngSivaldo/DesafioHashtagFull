@@ -1,0 +1,46 @@
+.oquefalam-carrossel-img--1 {
+  background-image: url(https://i3.ytimg.com/vi/N_EZD04zmrw/hqdefault.jpg);
+}
+.oquefalam-carrossel-img {
+  flex: 1;
+  background-color: #7489af;
+  background-blend-mode: multiply;
+  position: relative;
+  display: inline-block;
+  background-position: 50%;
+  background-size: cover;
+  aspect-ratio: 16 / 9;
+  border-radius: 2.5rem;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+div {
+  display: block;
+  unicode-bidi: isolate;
+}
+
+.oquefalam-carrossel-img--2 {
+  background-image: url(https://i3.ytimg.com/vi/auqWeBJLJHY/hqdefault.jpg);
+}
+
+.oquefalam-carrossel-img--3 {
+  background-image: url(https://i3.ytimg.com/vi/FD79IpCaM1Y/hqdefault.jpg);
+}
+
+.item-navegacao.ativa {
+  background-color: #14577f;
+}
+
+.item-navegacao {
+  cursor: pointer;
+  display: inline-block;
+  width: 1.2rem;
+  height: 1.2rem;
+  border-radius: 50%;
+  background-color: #86a8bc;
+}
